@@ -4,6 +4,7 @@ Contains R code, codebook, and tidy data set for the assignment.
 
 ## Files:
 CodeBook.md describes the how to use all this, variables, the data, and any transformations or work that was performed to clean up the data.
+The variables in the tidy data
 
 run_analysis.R contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file. Here are the five steps:
 
@@ -13,4 +14,11 @@ run_analysis.R contains all the code to perform the analyses described in the 5 
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-tidyData.txt is the output of the final step
+# Tidy data contains 180 rows and 68 columns. Each row has averaged variables for each subject and each activity.
+
+
+# variable units
+
+Activity variable is factor type. Subject variable is integer type. All the other variables are numeric type.
+
+
