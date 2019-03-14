@@ -1,8 +1,3 @@
----
-title: "CodeBook"
-output: html_document
----
-
 
 ## R Markdown
 #This is the code book for the project
